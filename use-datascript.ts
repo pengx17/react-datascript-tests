@@ -36,7 +36,6 @@ function shallowEqual(objA, objB) {
   return true;
 }
 
-// Credits: https://github.com/gurdasnijor/react-datascript
 function parseQueryAttributes(query: string) {
   const parsedQuery = read(query.trim());
   const whereKeywordIndex = parsedQuery.indexOf(Symbol.for(':where'));
